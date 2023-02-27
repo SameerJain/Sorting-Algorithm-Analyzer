@@ -14,7 +14,7 @@ step 1: Copy code for desired part (1 or 2) and paste into main
 step 2: g++ main.cpp -o main
 step 3: ./main
 
-PART 1 Input for Main: 
+Input this into int main(): 
 
 ```
   // TASK 1 OUTPUT
