@@ -16,7 +16,7 @@ step 3: ./main
 
 PART 1 Input for Main: 
 
-
+```
   // TASK 1 OUTPUT
   cout << "=========TASK 1==============\n";
 
@@ -94,7 +94,7 @@ PART 1 Input for Main:
 
     delete[] tempArr;
     BaseArr.clear();
-  }
+  } ```
 
 // PART 2 
 
