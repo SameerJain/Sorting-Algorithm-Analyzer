@@ -1,13 +1,18 @@
 # Sorting-Algorithm-Analyzer
-
+Sameer Jain - Project leader 
+• Organized meetings and coordinated project to completion, Final grade: 100%.
+• Assembled 61 C++ algorithm variations to sort data sets with a max size of 50,000.
+• Compared CPU run time, read step counts, and analyzed trade-offs to find most efficient algorithms.
 Data:
-(Task 1):
-https://docs.google.com/spreadsheets/d/1vWTPmyX2VwndZPcjbfmm-3cxkEMoKYH00fI44v1fscg/edit?usp=sharing
-(Task 2):
-https://docs.google.com/spreadsheets/d/1BKbo1bFIx7Ax6Nh3gNtErdYFnpNI6KYakWHr2gB0T3Y/edit#gid=0
 
 Presentation:
 https://docs.google.com/presentation/d/1dUqu7pfOn9Nu4loHAPI2E4TWEKYWjL3cYrdwhP6J-YY/edit?usp=sharing
+
+(Task 1):
+https://docs.google.com/spreadsheets/d/1vWTPmyX2VwndZPcjbfmm-3cxkEMoKYH00fI44v1fscg/edit?usp=sharing
+
+(Task 2):
+https://docs.google.com/spreadsheets/d/1BKbo1bFIx7Ax6Nh3gNtErdYFnpNI6KYakWHr2gB0T3Y/edit#gid=0
 
 TO COMPILE:
 step 1: Copy code for desired part (1 or 2) and paste into main
