@@ -16,6 +16,9 @@ https://docs.google.com/spreadsheets/d/1vWTPmyX2VwndZPcjbfmm-3cxkEMoKYH00fI44v1f
 Algo Steps Count:
 https://docs.google.com/spreadsheets/d/1BKbo1bFIx7Ax6Nh3gNtErdYFnpNI6KYakWHr2gB0T3Y/edit#gid=0
 
+Video Demonstration:
+https://youtu.be/8OGSf1p1Aqs
+
 To Compile:
 step 1: Copy code for desired part (1 or 2) and paste into main
 step 2: g++ main.cpp -o main
