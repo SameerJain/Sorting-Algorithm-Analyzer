@@ -21,77 +21,79 @@ int main() {
   cout << "=========TASK 1==============\n";
 
   for (int i = 0; i <= 7; i++) {
+
     // Initialization and printArray
-    Size = dataSetSizes[i];
-    cout << "Current Size:" << Size << endl;
-    int *tempArr = newPermutArray(Size);
-    // cout << "Original Array:\n";
-    // printArray(tempArr, Size);
-    // // BUBBLE SORT
-    // cout << "=======BUBBLE SORT:============\n";
-    // cout << "Bubble Sort A = ";
-    // func_eval(tempArr, Size, bubbleSortA);
-    // bubbleSortAS(tempArr, Size);
-    // cout << "Bubble Sort B = ";
-    // func_eval(tempArr, Size, bubbleSortB);
-    // bubbleSortBS(tempArr, Size);
-    // // INSERTION SORT
-    // cout << "=======INSERTION SORT:============\n";
-    // cout << "Insertion Sort A = ";
-    // func_eval(tempArr, Size, insertionSortA);
-    // insertionSortAS(tempArr, Size);
-    // cout << "Insertion Sort B = ";
-    // func_eval(tempArr, Size, insertionSortB);
-    // insertionSortBS(tempArr, Size);
+      Size = dataSetSizes[i];
+      cout << "Current Size:" << Size << endl;
+      int *tempArr = newPermutArray(Size);
+      cout << "Original Array:\n";
+      printArray(tempArr, Size);
+
+    // BUBBLE SORT
+    cout << "=======BUBBLE SORT:============\n";
+      cout << "Bubble Sort A = ";
+      func_eval(tempArr, Size, bubbleSortA);
+      bubbleSortAS(tempArr, Size);
+      cout << "Bubble Sort B = ";
+      func_eval(tempArr, Size, bubbleSortB);
+      bubbleSortBS(tempArr, Size);
+    // INSERTION SORT
+      cout << "=======INSERTION SORT:============\n";
+      cout << "Insertion Sort A = ";
+      func_eval(tempArr, Size, insertionSortA);
+      insertionSortAS(tempArr, Size);
+      cout << "Insertion Sort B = ";
+      func_eval(tempArr, Size, insertionSortB);
+      insertionSortBS(tempArr, Size);
     // SELECTION SORT
-    cout << "=======SELECTION SORT:============\n";
-    cout << "Selection Sort A = ";
-    func_eval(tempArr, Size, selectionSortA);
-    selectionSortAS(tempArr, Size);
-    cout << "Selection Sort B = ";
-    func_eval(tempArr, Size, selectionSortB);
-    selectionSortBS(tempArr, Size);
+      cout << "=======SELECTION SORT:============\n";
+      cout << "Selection Sort A = ";
+      func_eval(tempArr, Size, selectionSortA);
+      selectionSortAS(tempArr, Size);
+      cout << "Selection Sort B = ";
+      func_eval(tempArr, Size, selectionSortB);
+      selectionSortBS(tempArr, Size);
     // HEAP SORT
-    cout << "=======HEAP SORT:================\n";
-    cout << "Heap Sort A = ";
-    func_eval(tempArr, Size, heapSortA);
-    heapSortAS(tempArr, Size);
-    cout << "Heap Sort B = ";
-    func_eval(tempArr, Size, heapSortB);
-    heapSortBS(tempArr, Size);
+      cout << "=======HEAP SORT:================\n";
+      cout << "Heap Sort A = ";
+      func_eval(tempArr, Size, heapSortA);
+      heapSortAS(tempArr, Size);
+      cout << "Heap Sort B = ";
+      func_eval(tempArr, Size, heapSortB);
+      heapSortBS(tempArr, Size);
     // MERGESORT
-    cout << "=======MERGESORT:================\n";
-    cout << "Merge Sort A = ";
-    func_eval2(tempArr, 0, Size - 1, mergeSortA);
-    func_evalStepsMQ(tempArr, 0, Size - 1, mergeSortAS);
-    cout << "Merge Sort B = ";
-    func_eval2(tempArr, 0, Size - 1, mergeSortB);
-    func_evalStepsMQ(tempArr, 0, Size - 1, mergeSortBS);
+      cout << "=======MERGESORT:================\n";
+      cout << "Merge Sort A = ";
+      func_eval2(tempArr, 0, Size - 1, mergeSortA);
+      func_evalStepsMQ(tempArr, 0, Size - 1, mergeSortAS);
+      cout << "Merge Sort B = ";
+      func_eval2(tempArr, 0, Size - 1, mergeSortB);
+      func_evalStepsMQ(tempArr, 0, Size - 1, mergeSortBS);
     // Merge Insertion
-    cout << "Merge-Insertion Sort A = ";
-    func_evalMergeIns(tempArr, 0, Size - 1, Size * 0.01, mergeInsertionSortA);
-    func_evalMergeInsSteps(tempArr, 0, Size - 1, Size * 0.01,
-                           mergeInsertionSortAS);
-    cout << "Merge-Insertion Sort B = ";
-    func_evalMergeIns(tempArr, 0, Size - 1, Size * 0.01, mergeInsertionSortB);
-    func_evalMergeInsSteps(tempArr, 0, Size - 1, Size * 0.01,
-                           mergeInsertionSortBS);
+      cout << "Merge-Insertion Sort A = ";
+      func_evalMergeIns(tempArr, 0, Size - 1, Size * 0.01, mergeInsertionSortA);
+      func_evalMergeInsSteps(tempArr, 0, Size - 1, Size * 0.01,
+                            mergeInsertionSortAS);
+      cout << "Merge-Insertion Sort B = ";
+      func_evalMergeIns(tempArr, 0, Size - 1, Size * 0.01, mergeInsertionSortB);
+      func_evalMergeInsSteps(tempArr, 0, Size - 1, Size * 0.01,
+                            mergeInsertionSortBS);
     // QUICKSORT
-    cout << "=======QUICKSORT:================\n";
+      cout << "=======QUICKSORT:================\n";
     // Hoarse
-    cout << "Quick Sort A (HOARSE)= ";
-    func_eval2(tempArr, 0, Size - 1, quickSortHA);
-    func_evalStepsMQ(tempArr, 0, Size - 1, quickSortHAS);
-    cout << "Quick Sort B (HOARSE)= ";
-    func_eval2(tempArr, 0, Size - 1, quickSortHB);
-    func_evalStepsMQ(tempArr, 0, Size - 1, quickSortHBS);
+      cout << "Quick Sort A (HOARSE)= ";
+      func_eval2(tempArr, 0, Size - 1, quickSortHA);
+      func_evalStepsMQ(tempArr, 0, Size - 1, quickSortHAS);
+      cout << "Quick Sort B (HOARSE)= ";
+      func_eval2(tempArr, 0, Size - 1, quickSortHB);
+      func_evalStepsMQ(tempArr, 0, Size - 1, quickSortHBS);
     //  Lamuto
-    cout << "Quick Sort A (LAMUTO)= ";
-    func_eval2(tempArr, 0, Size - 1, QuicksortLA);
-    func_evalStepsMQ(tempArr, 0, Size - 1, QuicksortLAS);
-    cout << "Quick Sort B (LAMUTO)= ";
-    func_eval2(tempArr, 0, Size - 1, QuicksortLB);
-    func_evalStepsMQ(tempArr, 0, Size - 1, QuicksortLBS);
+      cout << "Quick Sort A (LAMUTO)= ";
+      func_eval2(tempArr, 0, Size - 1, QuicksortLA);
+      func_evalStepsMQ(tempArr, 0, Size - 1, QuicksortLAS);
+      cout << "Quick Sort B (LAMUTO)= ";
+      func_eval2(tempArr, 0, Size - 1, QuicksortLB);
+      func_evalStepsMQ(tempArr, 0, Size - 1, QuicksortLBS);
 
     delete[] tempArr;
     BaseArr.clear();
