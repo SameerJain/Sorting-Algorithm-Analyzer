@@ -5,16 +5,13 @@ Sameer Jain - Project leader
 
 • Assembled 61 C++ algorithm variations to sort data sets with a max size of 50,000.
 
-• Compared CPU run time, read step counts, and analyzed trade-offs to find most efficient algorithms.
+• Compared CPU run time, read step counts, and analyzed trade-offs to find the most efficient algorithms.
 
 Presentation:
 https://docs.google.com/presentation/d/1dUqu7pfOn9Nu4loHAPI2E4TWEKYWjL3cYrdwhP6J-YY/edit?usp=sharing
 
 CPU Data:
 https://docs.google.com/spreadsheets/d/1vWTPmyX2VwndZPcjbfmm-3cxkEMoKYH00fI44v1fscg/edit?usp=sharing
-
-Algo Steps Count:
-https://docs.google.com/spreadsheets/d/1BKbo1bFIx7Ax6Nh3gNtErdYFnpNI6KYakWHr2gB0T3Y/edit#gid=0
 
 Video Demonstration:
 https://youtu.be/8OGSf1p1Aqs
